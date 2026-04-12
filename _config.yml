@@ -36,9 +36,9 @@ comments:
   active: giscus
   giscus:
     repo: YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME.github.io   # ← 변경
-    repo_id: ""          # giscus.app에서 발급받은 값 붙여넣기
+    repo_id: "R_kgDOSAnymQ"          # giscus.app에서 발급받은 값 붙여넣기
     category: Comments
-    category_id: ""      # giscus.app에서 발급받은 값 붙여넣기
+    category_id: "DIC_kwDOSAnymc4C6rnK"      # giscus.app에서 발급받은 값 붙여넣기
     mapping: pathname
     input_position: bottom
     lang: ko
