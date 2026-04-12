@@ -6,8 +6,7 @@
    Chirpy 기본 다크 테마 위에 덮어씌우는 방식
    ================================================================ */
 
-/*@import "{{ site.theme }}/assets/css/jekyll-theme-chirpy";*/
-@import "jekyll-theme-chirpy";
+@import "{{ site.theme }}/assets/css/jekyll-theme-chirpy";
 
 /* ── 색상 변수 ─────────────────────────────────────────────────── */
 [data-mode="dark"], html {
