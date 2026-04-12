@@ -72,10 +72,7 @@ defaults:
       permalink: /:title/
 
 # ─── 플러그인 ─────────────────────────────────────────
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+
 
 # ─── 빌드 제외 파일 ───────────────────────────────────
 exclude:
