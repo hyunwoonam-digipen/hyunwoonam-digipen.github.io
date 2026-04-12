@@ -10,10 +10,10 @@ description: >-
   C, C++, C#, 컴퓨터과학, 알고리즘, 게임기획, 유니티를 공부하며
   직접 이해한 내용을 기록하는 블로그입니다.
 
-url: "https://YOUR_GITHUB_USERNAME.github.io"   # ← 본인 username으로 변경
+url: "https://hyunwoonam-digipen.github.io"   # ← 본인 username으로 변경
 
 github:
-  username: YOUR_GITHUB_USERNAME                 # ← 본인 username으로 변경
+  username: hyunwoonam-digipen                  # ← 본인 username으로 변경
 
 # twitter:
 #   username: your_twitter
@@ -22,7 +22,7 @@ social:
   name: Your Name                                # ← 본인 이름으로 변경
   email: your@email.com                          # ← 본인 이메일로 변경
   links:
-    - https://github.com/YOUR_GITHUB_USERNAME
+    - https://github.com/hyunwoonam-digipen
 
 # ─── 테마 설정 ──────────────────────────────────────
 theme_mode: dark    # dark를 기본값으로 고정
@@ -35,7 +35,7 @@ toc: true           # 글 목차 자동 생성
 comments:
   active: giscus
   giscus:
-    repo: YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME.github.io   # ← 변경
+    repo: hyunwoonam-digipen/hyunwoonam-digipen.github.io   # ← 변경
     repo_id: "R_kgDOSAnymQ"          # giscus.app에서 발급받은 값 붙여넣기
     category: Comments
     category_id: "DIC_kwDOSAnymc4C6rnK"      # giscus.app에서 발급받은 값 붙여넣기
