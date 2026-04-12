@@ -5,6 +5,7 @@ source "https://rubygems.org"
 gem "jekyll-theme-chirpy", "~> 7.5"
 
 gem "html-proofer", "~> 5.0", group: :test
+gem "jekyll"
 
 platforms :windows, :jruby do
   gem "jekyll-feed"
