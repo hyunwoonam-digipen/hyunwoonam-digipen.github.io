@@ -11,6 +11,7 @@ description: >-
   직접 이해한 내용을 기록하는 블로그입니다.
 
 url: "https://hyunwoonam-digipen.github.io"   # ← 본인 username으로 변경
+baseurl: ""
 
 github:
   username: hyunwoonam-digipen                  # ← 본인 username으로 변경
@@ -19,8 +20,8 @@ github:
 #   username: your_twitter
 
 social:
-  name: Your Name                                # ← 본인 이름으로 변경
-  email: your@email.com                          # ← 본인 이메일로 변경
+  name: Hyunwoo Nam                               # ← 본인 이름으로 변경
+  email: newgmn1231@gmail.com                       # ← 본인 이메일로 변경
   links:
     - https://github.com/hyunwoonam-digipen
 
