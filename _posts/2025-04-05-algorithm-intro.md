@@ -4,6 +4,7 @@ date: 2025-04-05 09:00:00 +0900
 categories: [알고리즘, 입문]
 tags: [알고리즘, 시간복잡도, Big-O, 탐색, 정렬]
 math: true
+comments: true
 ---
 
 같은 결과를 내는 두 코드가 있습니다.  

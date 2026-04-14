@@ -3,6 +3,7 @@ title: "유니티 — 게임 엔진의 세계로 첫걸음"
 date: 2025-04-07 09:00:00 +0900
 categories: [유니티, 입문]
 tags: [Unity, 게임엔진, GameObject, 컴포넌트, C#]
+comments: true
 ---
 
 Unity는 세계에서 가장 많이 쓰이는 게임 엔진 중 하나입니다.  

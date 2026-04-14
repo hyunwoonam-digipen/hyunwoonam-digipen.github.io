@@ -3,6 +3,7 @@ title: "C# — .NET 위에서 달리는 현대적 언어"
 date: 2025-04-03 09:00:00 +0900
 categories: [C#, 입문]
 tags: [C#, dotNET, Unity, 객체지향, 기초문법]
+comments: true
 ---
 
 C#(씨샵)은 2000년 Microsoft가 만든 언어입니다.  
