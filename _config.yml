@@ -34,7 +34,7 @@ toc: true           # 글 목차 자동 생성
 
 # ─── 댓글 (Giscus) ───────────────────────────────────
 comments:
-  active: giscus
+  provider: giscus   # Chirpy 7.x는 'active'가 아니라 'provider' 키를 사용
   giscus:
     repo: hyunwoonam-digipen/hyunwoonam-digipen.github.io   # ← 변경
     repo_id: "R_kgDOSAnymQ"          # giscus.app에서 발급받은 값 붙여넣기
@@ -44,6 +44,16 @@ comments:
     input_position: bottom
     lang: ko
     reactions_enabled: "1"
+
+# ─── 방문자 통계 (GoatCounter) ───────────────────────
+# 1) https://www.goatcounter.com 에서 가입 (무료)
+# 2) 가입 시 정한 코드(예: hyunwoonam → hyunwoonam.goatcounter.com)를 아래 id에 입력
+analytics:
+  goatcounter:
+    id: GOATCOUNTER_CODE       # ← 가입 후 본인 코드로 변경
+
+pageviews:
+  provider: goatcounter        # 각 글 제목 아래에 조회수 표시
 
 # ─── 페이지네이션 ────────────────────────────────────
 paginate: 10
@@ -78,25 +88,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-archives 
-
-  # ─── jekyll-archives (카테고리/태그 404 해결) ──────────
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
-
-# ─── 빌드 제외 파일 ───────────────────────────────────
-exclude:
-  - "*.gem"
-  - "*.gemspec"
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
+  - jekyll-
