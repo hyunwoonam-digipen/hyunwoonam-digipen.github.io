@@ -104,6 +104,9 @@ jekyll-archives:
 
 # ─── 빌드 제외 파일 ───────────────────────────────────
 exclude:
+  - "기록"          # 작업 기록 / 작성 양식 (빌드 결과물에 포함하지 않음)
+  - "SETUP_GUIDE.md"
+  - tools           # 로컬 스크립트 (변환기 등)
   - "*.gem"
   - "*.gemspec"
   - Gemfile
